@@ -18,13 +18,13 @@ namespace ProcessRouting.Models
         public string? opNumber { get; set; }
 
         [Display(Name = "workcenter")]
-        public int? workcenter { get; set; }
+        public string? workcenter { get; set; }
 
         [Display(Name = "Process Description (Short)")]
         public string? processDescriptionShort { get; set; }
 
         [Display(Name = "Process Description (Long)")]
-        public DateTime? processDescriptionLong { get; set; }
+        public string? processDescriptionLong { get; set; }
 
         [Display(Name = "Process Spec")]
         public string? processSpec { get; set; }

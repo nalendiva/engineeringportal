@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
+    "Method": "CreateData",
+    "RelativePath": "CreateData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ProcessRouting.Models.ProcessRoutingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
+    "Method": "GetAll",
+    "RelativePath": "ReadData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

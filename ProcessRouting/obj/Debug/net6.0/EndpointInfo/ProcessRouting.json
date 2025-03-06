@@ -10,6 +10,107 @@
     },
     "version": "v1"
   },
-  "paths": { },
-  "components": { }
+  "paths": {
+    "/CreateData": {
+      "post": {
+        "tags": [
+          "ProcessRoutingApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProcessRoutingModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProcessRoutingModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProcessRoutingModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/ReadData": {
+      "get": {
+        "tags": [
+          "ProcessRoutingApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ProcessRoutingModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "processType": {
+            "type": "string",
+            "nullable": true
+          },
+          "opNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "workcenter": {
+            "type": "string",
+            "nullable": true
+          },
+          "processDescriptionShort": {
+            "type": "string",
+            "nullable": true
+          },
+          "processDescriptionLong": {
+            "type": "string",
+            "nullable": true
+          },
+          "processSpec": {
+            "type": "string",
+            "nullable": true
+          },
+          "processInstruction": {
+            "type": "string",
+            "nullable": true
+          },
+          "checkingChart": {
+            "type": "string",
+            "nullable": true
+          },
+          "kc": {
+            "type": "string",
+            "nullable": true
+          },
+          "fixture": {
+            "type": "string",
+            "nullable": true
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }
