@@ -2,7 +2,7 @@
   {
     "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
     "Method": "CreateData",
-    "RelativePath": "CreateData",
+    "RelativePath": "ProcessRouting/CreateData",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,33 @@
   {
     "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
     "Method": "GetAll",
-    "RelativePath": "ReadData",
+    "RelativePath": "ProcessRouting/ReadData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkStandar.Controllers.WorkStandarApiController",
+    "Method": "CreateData",
+    "RelativePath": "WorkStandar/CreateData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WorkStandar.Models.WorkStandarModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkStandar.Controllers.WorkStandarApiController",
+    "Method": "GetAll",
+    "RelativePath": "WorkStandar/ReadData",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

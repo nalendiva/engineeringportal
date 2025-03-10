@@ -11,7 +11,7 @@
     "version": "v1"
   },
   "paths": {
-    "/CreateData": {
+    "/ProcessRouting/CreateData": {
       "post": {
         "tags": [
           "ProcessRoutingApi"
@@ -42,10 +42,53 @@
         }
       }
     },
-    "/ReadData": {
+    "/ProcessRouting/ReadData": {
       "get": {
         "tags": [
           "ProcessRoutingApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WorkStandar/CreateData": {
+      "post": {
+        "tags": [
+          "WorkStandarApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkStandarModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkStandarModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkStandarModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WorkStandar/ReadData": {
+      "get": {
+        "tags": [
+          "WorkStandarApi"
         ],
         "responses": {
           "200": {
@@ -105,6 +148,44 @@
             "nullable": true
           },
           "notes": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkStandarModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "wsNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "owner": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateEffective": {
+            "type": "string",
+            "nullable": true
+          },
+          "expireDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileWs": {
+            "type": "string",
+            "nullable": true
+          },
+          "note": {
             "type": "string",
             "nullable": true
           }

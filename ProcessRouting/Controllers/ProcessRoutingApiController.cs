@@ -16,14 +16,7 @@ namespace ProcessRouting.Controllers
         }
 
 
-
-
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        [HttpPost("/CreateData")]
+        [HttpPost("ProcessRouting/CreateData")]
         public async Task<IActionResult> CreateData([FromBody] ProcessRoutingModel model)
         {
             if (!ModelState.IsValid)
@@ -37,7 +30,7 @@ namespace ProcessRouting.Controllers
         }
 
 
-        [HttpGet("/ReadData")]
+        [HttpGet("ProcessRouting/ReadData")]
         public async Task<IActionResult> GetAll()
         {
             var data = await _context.ProcessRoutings.ToListAsync();

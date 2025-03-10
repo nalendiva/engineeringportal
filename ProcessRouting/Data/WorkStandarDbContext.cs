@@ -1,12 +1,11 @@
-﻿using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using ProcessRouting.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using WorkStandar.Models;
 
-namespace ProcessRouting.Data
+namespace WorkStandar.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class WorkStandarDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public WorkStandarDbContext(DbContextOptions<WorkStandarDbContext> options) : base(options)
         {
             try
             {
@@ -19,7 +18,6 @@ namespace ProcessRouting.Data
                 throw;
             }
         }
-        public DbSet<ProcessRoutingModel> ProcessRoutings { get; set; }
-
+    public DbSet<WorkStandarModel> workStandardMasterlist { get; set; }
     }
 }

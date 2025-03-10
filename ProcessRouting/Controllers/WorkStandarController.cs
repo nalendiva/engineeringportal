@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WorkStandar.Data;
 
-namespace ProcessRouting.Controllers
+
+namespace WorkStandar.Controllers
 {
     public class WorkStandarController : Controller
     {
