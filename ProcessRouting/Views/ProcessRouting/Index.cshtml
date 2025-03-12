@@ -50,7 +50,7 @@
 
                     $.each(data, function (index, item) {
                         let row = `
-                            <tr>
+                            <tr data-id="${item.id}">
                                 <td>${item.id}</td>
                                 <td>${item.processType}</td>
                                 <td>${item.opNumber}</td>
@@ -90,7 +90,7 @@
         $(document).on("click", ".edit-btn", function () {
             let id = $(this).data("id");
             if (id) {
-                window.location.href = `/ProcessRouting/FormUpdateData?id=${id}`;
+                window.location.href = "/ProcessRouting/FormUpdateData?id=${id}";
             } else {
                 alert("Error: ID tidak ditemukan!");
             }
@@ -101,17 +101,18 @@
             window.location.href = "/ProcessRouting/FormCreateData";
         });
 
+        // Event klik untuk tombol Delete
         $(document).on("click", ".delete-btn", function () {
             let id = $(this).data("id");
 
-            if (confirm("Apakah Anda yakin ingin menghapus data ini?")){
+            if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
                 $.ajax({
-                    url: `/ProcessRouting/DeleteData/${id}`,
+                    url:  `/ProcessRouting/DeleteData/${id}`,
                     type: "DELETE",
                     success: function (response) {
                         if (response.success) {
                             alert(response.message);
-                            $(`tr[data-id="${id}"]`).remove();
+                            $(`tr[data-id="${id}"]`).remove(); // Hapus baris dari tabel tanpa reload
                         } else {
                             alert(response.message);
                         }
@@ -122,6 +123,7 @@
                     }
                 });
             }
-        }
+        });
     });
 </script>
+
