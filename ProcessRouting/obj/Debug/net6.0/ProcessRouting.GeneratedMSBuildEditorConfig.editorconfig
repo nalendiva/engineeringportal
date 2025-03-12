@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProcessRouting
 build_property.RootNamespace = ProcessRouting
-build_property.ProjectDir = D:\Collins\engineeringportal\engineeringportal\ProcessRouting\
+build_property.ProjectDir = D:\Collins\ProcessRouting\ProcessRouting\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Collins\engineeringportal\engineeringportal\ProcessRouting
+build_property.MSBuildProjectDirectory = D:\Collins\ProcessRouting\ProcessRouting
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Home/Index.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Home/Privacy.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/ProcessRouting/FormCreateData.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/ProcessRouting/FormCreateData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc1JvdXRpbmdcRm9ybUNyZWF0ZURhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/ProcessRouting/FormUpdateData.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/ProcessRouting/FormUpdateData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc1JvdXRpbmdcRm9ybVVwZGF0ZURhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/ProcessRouting/Index.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/ProcessRouting/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc1JvdXRpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Shared/Ori/Error.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Shared/Ori/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9yaVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Shared/Ori/_ValidationScriptsPartial.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Shared/Ori/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9yaVxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Shared/_Navbar.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Shared/_Sidebar.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/WorkStandar/FormCreateData.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/WorkStandar/FormCreateData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya1N0YW5kYXJcRm9ybUNyZWF0ZURhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/WorkStandar/FormUpdateData.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/WorkStandar/FormUpdateData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya1N0YW5kYXJcRm9ybVVwZGF0ZURhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/WorkStandar/Index.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/WorkStandar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya1N0YW5kYXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/_ViewImports.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/_ViewStart.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/Shared/_Layout.cshtml]
+[D:/Collins/ProcessRouting/ProcessRouting/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-krdap2vjat
