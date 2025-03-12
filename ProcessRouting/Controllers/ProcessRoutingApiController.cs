@@ -64,8 +64,23 @@ namespace ProcessRouting.Controllers
             existingData.notes = model.notes;
 
 
-            await _context.saveChangesAsync();
+            await _context.SaveChangesAsync();
             return Json(new { message = "Data berhasil diperbarui", data = existingData });
+        }
+
+        [HttpDelete("ProcessRouting/DeleteData/{id}")]
+        public async Task<IActionResult> DeleteData(int id)
+        {
+            var data = _context.ProcessRoutings.Find(id);
+            if (data == null)
+            {
+                return Json(new { success = false, message = "Data tidak ditemukan" });
+            }
+
+            _context.ProcessRoutings.Remove(data);
+            _context.SaveChanges();
+
+            return Json(new { success = true, message = "Data berhasil dihapus" });
         }
 
     }

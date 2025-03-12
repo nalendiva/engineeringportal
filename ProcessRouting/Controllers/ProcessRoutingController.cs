@@ -20,5 +20,10 @@ namespace ProcessRouting.Controllers
         {
             return View();
         }
+        public IActionResult FormUpdateData()
+        {
+            return View();
+        }
+
     }
 }
