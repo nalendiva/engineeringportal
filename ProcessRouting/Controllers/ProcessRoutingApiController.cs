@@ -71,17 +71,25 @@ namespace ProcessRouting.Controllers
         [HttpDelete("ProcessRouting/DeleteData/{id}")]
         public async Task<IActionResult> DeleteData(int id)
         {
-            var data = _context.ProcessRoutings.Find(id);
-            if (data == null)
+            try
             {
-                return Json(new { success = false, message = "Data tidak ditemukan" });
+                var data = await _context.ProcessRoutings.FirstOrDefaultAsync(p => p.id == id);
+                if (data == null)
+                {
+                    return Json(new { success = false, message = "Data tidak ditemukan" });
+                }
+
+                _context.ProcessRoutings.Remove(data);
+                await _context.SaveChangesAsync();
+
+                return Json(new { success = true, message = "Data berhasil dihapus" });
             }
-
-            _context.ProcessRoutings.Remove(data);
-            _context.SaveChanges();
-
-            return Json(new { success = true, message = "Data berhasil dihapus" });
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Terjadi kesalahan: {ex.Message}" });
+            }
         }
+
 
     }
 }
