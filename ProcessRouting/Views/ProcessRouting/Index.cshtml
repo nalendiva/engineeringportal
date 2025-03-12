@@ -100,5 +100,28 @@
         $("#btnCreate").click(function () {
             window.location.href = "/ProcessRouting/FormCreateData";
         });
+
+        $(document).on("click", ".delete-btn", function () {
+            let id = $(this).data("id");
+
+            if (confirm("Apakah Anda yakin ingin menghapus data ini?")){
+                $.ajax({
+                    url: `/ProcessRouting/DeleteData/${id}`,
+                    type: "DELETE",
+                    success: function (response) {
+                        if (response.success) {
+                            alert(response.message);
+                            $(`tr[data-id="${id}"]`).remove();
+                        } else {
+                            alert(response.message);
+                        }
+                    },
+                    error: function (xhr) {
+                        console.error("Error:", xhr.responseText);
+                        alert("Gagal menghapus data.");
+                    }
+                });
+            }
+        }
     });
 </script>
