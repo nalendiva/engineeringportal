@@ -1,0 +1,108 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row mt-3 d-flex  ">
+	<div class="col">
+		<div class="card">
+			<div class="card-header align-items-center">
+				<h3 class="mb-4 ">Form Create</h3>
+			</div>
+			<div class="card-body">
+				<form id="formCreate">
+					<div class="d-grid gap-3 p-2 mb-2">
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS TYPE :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processType" name="processType" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">OP NUMBER :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="opNumber" name="opNumber" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">WORKCENTER :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="workcenter" name="workcenter" value="" />
+						</div>
+
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS DESCRIPTION (Short) :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionShort" name="processDescriptionShort" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS DESCRIPTION (Long) :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionLong" name="processDescriptionLong" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS SPEC :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processSpec" name="processSpec" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS INSTRUCTION :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processInstruction" name="processInstruction" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">CHECKING CHART :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="checkingChart" name="checkingChart" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">KC :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="kc" name="kc" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">FIXTURE :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="fixture" name="fixture" value="" />
+						</div>
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">NOTES :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="notes" name="notes" value="" />
+						</div>
+						<div class="d-flex justify-content-end align-items-lg-center gap-3 mb-1">
+							<button type="submit" class="btn btn-primary shadow">
+								<i class="bi bi-plus-square"></i> CREATE
+							</button>
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function () {
+		$("#formCreate").submit(function (event) {
+			event.preventDefault(); // Mencegah reload halaman
+
+			var formData = {
+				processType: $("#processType").val(),
+				opNumber: $("#opNumber").val(),
+				workcenter: $("#workcenter").val(),
+				processDescriptionShort: $("#processDescriptionShort").val(),
+				processDescriptionLong: $("#processDescriptionLong").val(),
+				processSpec: $("#processSpec").val(),
+				processInstruction: $("#processInstruction").val(),
+				checkingChart: $("#checkingChart").val(),
+				kc: $("#kc").val(),
+				fixture:$("#fixture").val(),
+				notes: $("#notes").val()
+			};
+
+			$.ajax({
+				url: "/ProcessRouting/CreateData", // URL API
+				type: "POST",
+				contentType: "application/json",
+				data: JSON.stringify(formData),
+				success: function (response) {
+					alert(response.message); // Notifikasi sukses
+					$("#formCreate")[0].reset(); // Reset form setelah submit berhasil
+				},
+				error: function (xhr) {
+					alert("Error: " + xhr.responseJSON.message); // Notifikasi error
+				}
+			});
+		});
+	});
+</script>
