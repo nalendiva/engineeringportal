@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
+    "Method": "GetById",
+    "RelativePath": "ProcessRouting/GetID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
     "Method": "GetAll",
     "RelativePath": "ProcessRouting/ReadData",
     "HttpMethod": "GET",

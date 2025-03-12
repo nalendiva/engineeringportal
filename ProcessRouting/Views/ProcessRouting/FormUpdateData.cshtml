@@ -11,73 +11,99 @@
 			<div class="card-header">
 				<h3 class="mb-4">Form Update</h3>
 			</div>
-			<div class="card-body">
-				<div class="d-grid gap-3 p-2 mb-2">
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">PROCESS TYPE :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="processType" name="processType" value="" />
+			<form id="updateForm">
+				<div class="card-body">
+					<div class="d-grid gap-3 p-2 mb-2">
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS TYPE :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processType" name="processType" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">OP NUMBER :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="opNumber" name="opNumber" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">WORKCENTER :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="workcenter" name="workcenter" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS DESCRIPTION (Short) :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionShort" name="processDescriptionShort" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS DESCRIPTION (Long) :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionLong" name="processDescriptionLong" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS SPEC :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processSpec" name="processSpec" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">PROCESS INSTRUCTION :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processInstruction" name="processInstruction" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">CHECKING CHART :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="checkingChart" name="checkingChart" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">KC :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="kc" name="kc" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">FIXTURE :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="fixture" name="fixture" value="" />
+						</div>
+						<div class="row mb-1 align-items-center justify-content-center">
+							<label class="col-md-3 text-end">NOTES :</label>
+							<input class="border border-secondary-subtle col form-control form-control" type="text" id="notes" name="notes" value="" />
+						</div>
 					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">OP NUMBER :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="opNumber" name="opNumber" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">WORKCENTER :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="workcenter" name="workcenter" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">PROCESS DESCRIPTION (Short) :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionShort" name="processDescriptionShort" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">PROCESS DESCRIPTION (Long) :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="processDescriptionLong" name="processDescriptionLong" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">PROCESS SPEC :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="processSpec" name="processSpec" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">PROCESS INSTRUCTION :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="processInstruction" name="processInstruction" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">CHECKING CHART :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="checkingChart" name="checkingChart" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">KC :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="kc" name="kc" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">FIXTURE :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="fixture" name="fixture" value="" />
-					</div>
-					<div class="row mb-1 align-items-center justify-content-center">
-						<label class="col-md-3 text-end">NOTES :</label>
-						<input class="border border-secondary-subtle col form-control form-control" type="text" id="notes" name="notes" value="" />
+					<div class="justify-content-end align-items-center d-flex mb-1 gap-3">
+						<button id="updateForm" class="btn btn-primary shadow ">
+							<i class="bi bi-floppy-fill"></i> SAVE
+						</button>
+						<button class="btn btn-secondary shadow ">
+							<i class="bi bi-floppy-fill"></i> CANCEL
+						</button>
 					</div>
 				</div>
-				<div class="justify-content-end align-items-center d-flex mb-1 gap-3">
-					<button id="btnSave" class="btn btn-primary shadow ">
-						<i class="bi bi-floppy-fill"></i> SAVE
-					</button>
-					<button class="btn btn-secondary shadow ">
-						<i class="bi bi-floppy-fill"></i> CANCEL
-					</button>
-				</div>
-			</div>
+			</form>
 		</div>
 	</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function () {
-		$("#btnSave").click(function () {
-			var id = $("#id").val(); // Ganti dengan ID yang sesuai (bisa diambil dari hidden input atau lainnya)
+		let storedData = sessionStorage.getItem("editData");
 
-			// Ambil data dari input form
-			var formData = {
+		if (storedData) {
+			let data = JSON.parse(storedData);
+
+			$("#processType").val(data.processType);
+			$("#opNumber").val(data.opNumber);
+			$("#workcenter").val(data.workcenter);
+			$("#processDescriptionShort").val(data.processDescriptionShort);
+			$("#processDescriptionLong").val(data.processDescriptionLong);
+			$("#processSpec").val(data.processSpec);
+			$("#processInstruction").val(data.processInstruction);
+			$("#checkingChart").val(data.checkingChart);
+			$("#kc").val(data.kc);
+			$("#fixture").val(data.fixture);
+			$("#notes").val(data.notes);
+		}
+
+		$("#updateForm").submit(function (event) {
+			event.preventDefault();
+			const urlParams = new URLSearchParams(window.location.search);
+			const id = urlParams.get("id");
+
+			if (!id) {
+				alert("ID tidak ditemukan! Tidak dapat memperbarui data.");
+				return;
+			}
+
+			let formData = {
 				processType: $("#processType").val(),
 				opNumber: $("#opNumber").val(),
 				workcenter: $("#workcenter").val(),
@@ -88,22 +114,29 @@
 				checkingChart: $("#checkingChart").val(),
 				kc: $("#kc").val(),
 				fixture: $("#fixture").val(),
-				notes: $("#notes").val() // Pastikan input notes ada di form
+				notes: $("#notes").val()
 			};
 
-			// Kirim data ke API menggunakan AJAX
 			$.ajax({
-				url: `/ProcessRouting/UpdateData/${id}`, // Sesuaikan dengan API yang Anda buat
+				url: `/ProcessRouting/UpdateData/${id}`,
 				type: "PUT",
 				contentType: "application/json",
 				data: JSON.stringify(formData),
 				success: function (response) {
-					alert(response.message);
-					console.log(response);
+					if (response.success) {
+						alert(response.message);
+						window.location.href = "/"; 
+					} else {
+						alert(response.message);
+					}
 				},
-				error: function (xhr, status, error) {
-					alert("Terjadi kesalahan: " + xhr.responseJSON?.message || error);
-					console.log(xhr.responseText);
+				error: function (xhr) {
+					console.error("Error:", xhr.responseText);
+					let errorMessage = "Gagal memperbarui data.";
+					if (xhr.status === 404) {
+						errorMessage = "Data tidak ditemukan. Mungkin sudah dihapus.";
+					}
+					alert(errorMessage);
 				}
 			});
 		});
