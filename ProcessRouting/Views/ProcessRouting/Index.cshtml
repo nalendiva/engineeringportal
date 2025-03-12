@@ -88,13 +88,32 @@
 
         // Event klik untuk tombol Edit
         $(document).on("click", ".edit-btn", function () {
-            let id = $(this).data("id");
-            if (id) {
-                window.location.href = "/ProcessRouting/FormUpdateData?id=${id}";
-            } else {
-                alert("Error: ID tidak ditemukan!");
-            }
-        });
+        let id = $(this).data("id");
+
+        if (id) {
+            $.ajax({
+                url: `/ProcessRouting/GetID/${id}`, 
+                type: "GET",
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        sessionStorage.setItem("editData", JSON.stringify(response.data));
+
+                        window.location.href = `/ProcessRouting/FormUpdateData?id=${id}`;
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function (xhr) {
+                    console.error("Error:", xhr.responseText);
+                    alert("Gagal mengambil data.");
+                }
+            });
+        } else {
+            alert("Error: ID tidak ditemukan!");
+        }
+    });
+
 
         // Event klik untuk tombol Create
         $("#btnCreate").click(function () {

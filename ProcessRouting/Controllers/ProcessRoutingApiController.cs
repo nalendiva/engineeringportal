@@ -90,6 +90,24 @@ namespace ProcessRouting.Controllers
             }
         }
 
+        [HttpGet("ProcessRouting/GetID/{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            try
+            {
+                var data = await _context.ProcessRoutings.FirstOrDefaultAsync(p => p.id == id);
+                if (data == null)
+                {
+                    return Json(new { success = false, message = "Data tidak ditemukan" });
+                }
+
+                return Json(new { success = true, data });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = $"Terjadi kesalahan: {ex.Message}" });
+            }
+        }
 
     }
 }
