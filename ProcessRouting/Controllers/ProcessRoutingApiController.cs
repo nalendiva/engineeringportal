@@ -81,7 +81,7 @@ namespace ProcessRouting.Controllers
         }
 
         [HttpPut("ProcessRouting/UpdateData/{id}")]
-        public async Task<IActionResult> UpdateData(int id, [FromBody] ProcessRoutingModel model)
+        public async Task<IActionResult> UpdateData(int id, [FromForm] ProcessRoutingModel model, IFormFile? processInstruction)
         {
             if (!ModelState.IsValid)
             {
@@ -94,22 +94,42 @@ namespace ProcessRouting.Controllers
                 return NotFound(new { message = "Data tidak ditemukan" });
             }
 
-            existingData.processType = model.processType; 
+            existingData.processType = model.processType;
             existingData.opNumber = model.opNumber;
             existingData.workcenter = model.workcenter;
             existingData.processDescriptionShort = model.processDescriptionShort;
             existingData.processDescriptionLong = model.processDescriptionLong;
             existingData.processSpec = model.processSpec;
-            existingData.processInstruction = model.processInstruction;
             existingData.checkingChart = model.checkingChart;
             existingData.kc = model.kc;
             existingData.fixture = model.fixture;
             existingData.notes = model.notes;
 
+            if (processInstruction != null && processInstruction.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                string dateTimeString = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                var uniqueFileNameUpdate = $"{Path.GetFileNameWithoutExtension(processInstruction.FileName)}_{dateTimeString}{Path.GetExtension(processInstruction.FileName)}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileNameUpdate);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await processInstruction.CopyToAsync(stream);
+                }
+
+                existingData.processInstruction = uniqueFileNameUpdate;
+            }
 
             await _context.SaveChangesAsync();
-            return Json(new { message = "Data berhasil diperbarui", data = existingData });
+            return Json(new { success = true, message = "Data berhasil diperbarui", data = existingData });
         }
+
 
         [HttpDelete("ProcessRouting/DeleteData/{id}")]
         public async Task<IActionResult> DeleteData(int id)

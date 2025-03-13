@@ -5,13 +5,13 @@
 }
 
 
-<div class="row mt-3 d-flex  ">
+<div class="row mt-3 d-flex">
 	<div class="col">
 		<div class="card">
 			<div class="card-header">
 				<h3 class="mb-4">Form Update</h3>
 			</div>
-			<form id="updateForm">
+			<form id="updateForm" enctype="multipart/form-data">
 				<div class="card-body">
 					<div class="d-grid gap-3 p-2 mb-2">
 						<div class="row mb-1 align-items-center justify-content-center">
@@ -40,7 +40,7 @@
 						</div>
 						<div class="row mb-1 align-items-center justify-content-center">
 							<label class="col-md-3 text-end">PROCESS INSTRUCTION :</label>
-							<input class="border border-secondary-subtle col form-control form-control" type="text" id="processInstruction" name="processInstruction" value="" />
+							<input class="border border-secondary-subtle col form-control form-control" type="file" id="processInstruction" name="processInstruction" />
 						</div>
 						<div class="row mb-1 align-items-center justify-content-center">
 							<label class="col-md-3 text-end">CHECKING CHART :</label>
@@ -60,10 +60,10 @@
 						</div>
 					</div>
 					<div class="justify-content-end align-items-center d-flex mb-1 gap-3">
-						<button id="updateForm" class="btn btn-primary shadow ">
+						<button type="submit" class="btn btn-primary shadow">
 							<i class="bi bi-floppy-fill"></i> SAVE
 						</button>
-						<button class="btn btn-secondary shadow ">
+						<button type="reset" class="btn btn-secondary shadow">
 							<i class="bi bi-floppy-fill"></i> CANCEL
 						</button>
 					</div>
@@ -72,25 +72,29 @@
 		</div>
 	</div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function () {
 		let storedData = sessionStorage.getItem("editData");
+		let data = null;
 
 		if (storedData) {
-			let data = JSON.parse(storedData);
-
-			$("#processType").val(data.processType);
-			$("#opNumber").val(data.opNumber);
-			$("#workcenter").val(data.workcenter);
-			$("#processDescriptionShort").val(data.processDescriptionShort);
-			$("#processDescriptionLong").val(data.processDescriptionLong);
-			$("#processSpec").val(data.processSpec);
-			$("#processInstruction").val(data.processInstruction);
-			$("#checkingChart").val(data.checkingChart);
-			$("#kc").val(data.kc);
-			$("#fixture").val(data.fixture);
-			$("#notes").val(data.notes);
+			try {
+				data = JSON.parse(storedData);
+				$("#processType").val(data.processType);
+				$("#opNumber").val(data.opNumber);
+				$("#workcenter").val(data.workcenter);
+				$("#processDescriptionShort").val(data.processDescriptionShort);
+				$("#processDescriptionLong").val(data.processDescriptionLong);
+				$("#processSpec").val(data.processSpec);
+				$("#checkingChart").val(data.checkingChart);
+				$("#kc").val(data.kc);
+				$("#fixture").val(data.fixture);
+				$("#notes").val(data.notes);
+			} catch (error) {
+				console.error("Error parsing sessionStorage data:", error);
+			}
 		}
 
 		$("#updateForm").submit(function (event) {
@@ -103,29 +107,19 @@
 				return;
 			}
 
-			let formData = {
-				processType: $("#processType").val(),
-				opNumber: $("#opNumber").val(),
-				workcenter: $("#workcenter").val(),
-				processDescriptionShort: $("#processDescriptionShort").val(),
-				processDescriptionLong: $("#processDescriptionLong").val(),
-				processSpec: $("#processSpec").val(),
-				processInstruction: $("#processInstruction").val(),
-				checkingChart: $("#checkingChart").val(),
-				kc: $("#kc").val(),
-				fixture: $("#fixture").val(),
-				notes: $("#notes").val()
-			};
+			let formData = new FormData(this);
+			formData.append("id", id);  // Add the ID to the form data
 
 			$.ajax({
 				url: `/ProcessRouting/UpdateData/${id}`,
 				type: "PUT",
-				contentType: "application/json",
-				data: JSON.stringify(formData),
+				data: formData,
+				contentType: false,
+				processData: false,
 				success: function (response) {
 					if (response.success) {
 						alert(response.message);
-						window.location.href = "/ProcessRouting/Index"; 
+						window.location.href = "/ProcessRouting/Index";  // Redirect to the list page
 					} else {
 						alert(response.message);
 					}
@@ -135,6 +129,8 @@
 					let errorMessage = "Gagal memperbarui data.";
 					if (xhr.status === 404) {
 						errorMessage = "Data tidak ditemukan. Mungkin sudah dihapus.";
+					} else if (xhr.status === 415) {
+						errorMessage = "Format data yang dikirim tidak didukung (Unsupported Media Type).";
 					}
 					alert(errorMessage);
 				}
