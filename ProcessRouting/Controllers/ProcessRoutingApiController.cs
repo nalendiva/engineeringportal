@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProcessRouting.Data;
 using ProcessRouting.Models;
@@ -15,18 +16,60 @@ namespace ProcessRouting.Controllers
             _context = context;
         }
 
-
         [HttpPost("ProcessRouting/CreateData")]
-        public async Task<IActionResult> CreateData([FromBody] ProcessRoutingModel model)
+        public async Task<IActionResult> CreateData([FromForm] ProcessRoutingModel model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(new { message = "Data tidak valid" });
             }
+            // Variabel untuk menyimpan nama file dan file itu sendiri
+            string? fileName = null; // Variabel untuk menyimpan nama file
+            string? filePath = null; // Variabel untuk menyimpan path lengkap file
 
-            _context.ProcessRoutings.Add(model);
+
+
+            // Proses upload file jika ada
+            var uploadedFile = Request.Form.Files.FirstOrDefault(f => f.Name == "processInstruction"); // Ambil file dari request
+            if (uploadedFile != null)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                // Simpan file dengan nama unik (misalnya GUID)
+                fileName = Guid.NewGuid().ToString() + Path.GetExtension(uploadedFile.FileName);
+                filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await uploadedFile.CopyToAsync(stream);
+                }
+
+            }
+            // Simpan ke database menggunakan model asli
+            var newData = new ProcessRoutingModel
+            {
+                processType = model.processType,
+                opNumber = model.opNumber,
+                workcenter = model.workcenter,
+                processDescriptionShort = model.processDescriptionShort,
+                processDescriptionLong = model.processDescriptionLong,
+                processSpec = model.processSpec,
+                processInstruction = fileName, // Simpan nama file saja
+                checkingChart = model.checkingChart,
+                kc = model.kc,
+                fixture = model.fixture,
+                notes = model.notes
+            };
+
+
+            _context.ProcessRoutings.Add(newData);
             await _context.SaveChangesAsync();
-            return Json(new { message = "Data berhasil ditambahkan", data = model });
+
+            return Ok(new { message = "Data berhasil ditambahkan", fileUploaded = fileName, data = newData });
         }
 
 

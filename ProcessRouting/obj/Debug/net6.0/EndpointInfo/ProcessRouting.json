@@ -18,19 +18,86 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/ProcessRoutingModel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProcessRoutingModel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProcessRoutingModel"
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "processType": {
+                    "type": "string"
+                  },
+                  "opNumber": {
+                    "type": "string"
+                  },
+                  "workcenter": {
+                    "type": "string"
+                  },
+                  "processDescriptionShort": {
+                    "type": "string"
+                  },
+                  "processDescriptionLong": {
+                    "type": "string"
+                  },
+                  "processSpec": {
+                    "type": "string"
+                  },
+                  "processInstruction": {
+                    "type": "string"
+                  },
+                  "checkingChart": {
+                    "type": "string"
+                  },
+                  "kc": {
+                    "type": "string"
+                  },
+                  "fixture": {
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "id": {
+                  "style": "form"
+                },
+                "processType": {
+                  "style": "form"
+                },
+                "opNumber": {
+                  "style": "form"
+                },
+                "workcenter": {
+                  "style": "form"
+                },
+                "processDescriptionShort": {
+                  "style": "form"
+                },
+                "processDescriptionLong": {
+                  "style": "form"
+                },
+                "processSpec": {
+                  "style": "form"
+                },
+                "processInstruction": {
+                  "style": "form"
+                },
+                "checkingChart": {
+                  "style": "form"
+                },
+                "kc": {
+                  "style": "form"
+                },
+                "fixture": {
+                  "style": "form"
+                },
+                "notes": {
+                  "style": "form"
+                }
               }
             }
           }

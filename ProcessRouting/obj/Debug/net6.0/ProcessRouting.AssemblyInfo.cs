@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessRouting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f32a1b1bfd15afe9f4269c958485c54aba23a02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e93ac71ad5a3e3e359584f39d1c19991b40833ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessRouting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessRouting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

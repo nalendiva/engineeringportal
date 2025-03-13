@@ -8,9 +8,64 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "ProcessRouting.Models.ProcessRoutingModel",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "processType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "opNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "workcenter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processDescriptionShort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processDescriptionLong",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processSpec",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "processInstruction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "checkingChart",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "kc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fixture",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
