@@ -99,16 +99,26 @@
 
 		$("#updateForm").submit(function (event) {
 			event.preventDefault();
+			const fileInput = $("#processInstruction")[0];
+			if (fileInput.files.length > 0){
+				const file = fileInput.files[0];
+				const allowedTypes = ["application/pdf"];
+
+				if (!allowedTypes.includes(file.type)) {
+					alert("Hanya file PDF yang diperbolehkan!");
+					return;
+				}
+			}
 			const urlParams = new URLSearchParams(window.location.search);
 			const id = urlParams.get("id");
-
+			
 			if (!id) {
 				alert("ID tidak ditemukan! Tidak dapat memperbarui data.");
 				return;
 			}
 
 			let formData = new FormData(this);
-			formData.append("id", id);  // Add the ID to the form data
+			formData.append("id", id);  
 
 			$.ajax({
 				url: `/ProcessRouting/UpdateData/${id}`,
@@ -119,7 +129,7 @@
 				success: function (response) {
 					if (response.success) {
 						alert(response.message);
-						window.location.href = "/ProcessRouting/Index";  // Redirect to the list page
+						window.location.href = "/ProcessRouting/Index";  
 					} else {
 						alert(response.message);
 					}

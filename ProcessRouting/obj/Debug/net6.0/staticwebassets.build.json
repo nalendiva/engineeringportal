@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Moy6/MJ4f7zjfC6pmlj0GNYjx3fF78bHcvqiedTLyWU=",
+  "Hash": "o5JuNrM3aigjqXpDkyOvjhvcyKQMJLev3QEVgmLXiMg=",
   "Source": "ProcessRouting",
   "BasePath": "_content/ProcessRouting",
   "Mode": "Default",
@@ -2537,6 +2537,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3567c318-ece9-49c2-a076-d44a66ad1611.png"
     },
     {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gp80e31zkr",
+      "Integrity": "FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+    },
+    {
       "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "SourceId": "ProcessRouting",
       "SourceType": "Discovered",
@@ -2577,6 +2598,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\66860048-6a81-4327-a1c0-8b51758e3092.png"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/Case Study_Excel Basic Formula_20250313_141808#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gd4fn8lka9",
+      "Integrity": "HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/Case Study_Excel Basic Formula_20250313_141812#[.{fingerprint}]?.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gd4fn8lka9",
+      "Integrity": "HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/unnamed_20250313_133443#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rodecpo49p",
+      "Integrity": "NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_133443.png"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/unnamed_20250313_133533#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rodecpo49p",
+      "Integrity": "NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_133533.png"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/unnamed_20250313_141831#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rodecpo49p",
+      "Integrity": "NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_141831.png"
     }
   ],
   "Endpoints": [
@@ -12421,6 +12547,88 @@
       ]
     },
     {
+      "Route": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.gp80e31zkr.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gp80e31zkr"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA="
+        }
+      ]
+    },
+    {
       "Route": "uploads/61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "Selectors": [],
@@ -12577,6 +12785,416 @@
         {
           "Name": "label",
           "Value": "uploads/66860048-6a81-4327-a1c0-8b51758e3092.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141808.gd4fn8lka9.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gd4fn8lka9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Case Study_Excel Basic Formula_20250313_141808.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141812.gd4fn8lka9.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gd4fn8lka9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Case Study_Excel Basic Formula_20250313_141812.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_133443.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 06:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_133443.rodecpo49p.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 06:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rodecpo49p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/unnamed_20250313_133443.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_133533.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 06:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_133533.rodecpo49p.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 06:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rodecpo49p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/unnamed_20250313_133533.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_141831.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_141831.rodecpo49p.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rodecpo49p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/unnamed_20250313_141831.png"
         },
         {
           "Name": "integrity",

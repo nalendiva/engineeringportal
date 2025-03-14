@@ -116,5 +116,11 @@ wwwroot\lib\node-waves\waves.min.js
 wwwroot\lib\simplebar\simplebar.min.js
 wwwroot\lib\waypoints\jquery.waypoints.min.js
 wwwroot\uploads\3567c318-ece9-49c2-a076-d44a66ad1611.png
+wwwroot\uploads\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png
 wwwroot\uploads\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png
 wwwroot\uploads\66860048-6a81-4327-a1c0-8b51758e3092.png
+wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141808.xlsx
+wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx
+wwwroot\uploads\unnamed_20250313_133443.png
+wwwroot\uploads\unnamed_20250313_133533.png
+wwwroot\uploads\unnamed_20250313_141831.png

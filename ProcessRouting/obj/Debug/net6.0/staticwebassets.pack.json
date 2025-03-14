@@ -477,12 +477,36 @@
       "PackagePath": "staticwebassets\\uploads\\3567c318-ece9-49c2-a076-d44a66ad1611.png"
     },
     {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "PackagePath": "staticwebassets\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+    },
+    {
       "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "PackagePath": "staticwebassets\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png"
     },
     {
       "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\66860048-6a81-4327-a1c0-8b51758e3092.png",
       "PackagePath": "staticwebassets\\uploads\\66860048-6a81-4327-a1c0-8b51758e3092.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_133443.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_133533.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_141831.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProcessRouting.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
