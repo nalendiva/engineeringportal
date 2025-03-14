@@ -1,3 +1,4 @@
+using MachineHazard.Data;
 using Microsoft.EntityFrameworkCore;
 using ProcessRouting.Data;
 using WorkStandar.Data;
@@ -10,7 +11,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<WorkStandarDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("WorkStandarConnection")));
-
+builder.Services.AddDbContext<MachineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MachineConnection")));
 
 
 builder.Services.AddEndpointsApiExplorer();

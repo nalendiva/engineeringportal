@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row">
+    <div class="col-auto">
+        <button id="btnCreate" class="btn btn-primary btn rounded-pill shadow">
+            <i class="bi bi-plus-square"></i> Create
+        </button>
+    </div>
+</div>
+
+<div class="row table-responsive mt-2">
+    <table class="table table-bordered text-center" style="">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Machine</th>
+                <th>File</th>
+                <th>Revisi</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="dataBody">
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        function loadData() {
+            $.ajax({
+                url: "/Machine/ReadData",
+                type: "GET",
+                dataType: "json",
+                success: function (data) {
+                    $("#dataBody").empty();
+
+                    $.each(data, function (index, item) {
+                        let row = `
+                            <tr data-id="${item.id}">
+                                <td>${item.id}</td>
+                                <td>${item.machine}</td>
+                                <td>${item.filemachine}</td>
+                                <td>${item.rev}</td>
+                                <td>${item.status}</td>
+                                <td class="d-flex justify-content-center align-items-center gap-3">
+                                    <button class="btn btn-warning btn-sm edit-btn" data-id="${item.id}">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-sm delete-btn" data-id="${item.id}">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        `;
+                        $("#dataBody").append(row);
+                    });
+                },
+                error: function (xhr) {
+                    console.error("Error:", xhr.responseText);
+                    alert("Gagal mengambil data.");
+                }
+            });
+        }
+
+        loadData();  
+
+    }); 
+
+</script>

@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/MachineHazard/CreateData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZUhhemFyZFxDcmVhdGVEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/MachineHazard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZUhhemFyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Collins/engineeringportal/engineeringportal/ProcessRouting/Views/ProcessRouting/FormCreateData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2Vzc1JvdXRpbmdcRm9ybUNyZWF0ZURhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

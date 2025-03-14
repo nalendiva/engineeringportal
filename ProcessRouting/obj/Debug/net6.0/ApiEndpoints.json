@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "MachineHazard.Controllers.MachineHazardApiController",
+    "Method": "CreateData",
+    "RelativePath": "Machine/CreateData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "machine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filemachine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rev",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MachineHazard.Controllers.MachineHazardApiController",
+    "Method": "GetAll",
+    "RelativePath": "Machine/ReadData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProcessRouting.Controllers.ProcessRoutingApiController",
     "Method": "CreateData",
     "RelativePath": "ProcessRouting/CreateData",

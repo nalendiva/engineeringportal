@@ -121,7 +121,9 @@ wwwroot\uploads\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png
 wwwroot\uploads\66860048-6a81-4327-a1c0-8b51758e3092.png
 wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141808.xlsx
 wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx
+wwwroot\uploads\d0889305-07ce-436a-b5b1-100773aeddd2.pdf
 wwwroot\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png
+wwwroot\uploads\e7257d8b-fd5c-444e-ac56-76abf0748a0b.pdf
 wwwroot\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf
 wwwroot\uploads\unnamed_20250313_133443.png
 wwwroot\uploads\unnamed_20250313_133533.png
