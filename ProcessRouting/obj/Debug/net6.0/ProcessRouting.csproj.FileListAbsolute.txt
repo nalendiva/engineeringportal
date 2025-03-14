@@ -185,3 +185,8 @@ D:\Collins\engineeringportal\engineeringportal\ProcessRouting\bin\Debug\net6.0\M
 D:\Collins\engineeringportal\engineeringportal\ProcessRouting\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Collins\engineeringportal\engineeringportal\ProcessRouting\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Collins\engineeringportal\engineeringportal\ProcessRouting\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Collins\ProcessRouting\ProcessRouting\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Collins\ProcessRouting\ProcessRouting\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Collins\ProcessRouting\ProcessRouting\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Collins\ProcessRouting\ProcessRouting\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Collins\ProcessRouting\ProcessRouting\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

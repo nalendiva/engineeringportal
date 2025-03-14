@@ -13,9 +13,9 @@
 </div>
 
 <div class="row table-responsive mt-2">
-    <table class="table table-bordered text-center" style="">
-        <thead>
-            <tr>
+    <table class="table table-bordered text-center">
+        <thead class="align-items-center justify-content-center">
+            <tr >
                 <th>ID</th>
                 <th>Process Type</th>
                 <th>Op Number</th>
@@ -58,7 +58,13 @@
                                 <td>${item.processDescriptionShort}</td>
                                 <td>${item.processDescriptionLong}</td>
                                 <td>${item.processSpec}</td>
-                                <td>${item.processInstruction}</td>
+                                <td class="" >
+                                    ${item.processInstruction ?
+                                        `<a href="/uploads/${item.processInstruction}" target="_blank" title="Lihat File PDF">
+                                            <i class="bi bi-eye"></i>
+                                        </a>`
+                                            :'Tidak ada file'}
+                                </td>
                                 <td>${item.checkingChart}</td>
                                 <td>${item.kc}</td>
                                 <td>${item.fixture}</td>

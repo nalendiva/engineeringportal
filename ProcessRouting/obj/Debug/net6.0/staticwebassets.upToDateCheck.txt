@@ -115,6 +115,16 @@ wwwroot\lib\metismenu\metisMenu.min.js
 wwwroot\lib\node-waves\waves.min.js
 wwwroot\lib\simplebar\simplebar.min.js
 wwwroot\lib\waypoints\jquery.waypoints.min.js
+wwwroot\uploads\1_20240911_134324_0000_20250313_144237.png
+wwwroot\uploads\11664071-8f3f-4e73-b6e0-e201cb7330b1.pdf
 wwwroot\uploads\3567c318-ece9-49c2-a076-d44a66ad1611.png
 wwwroot\uploads\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png
 wwwroot\uploads\66860048-6a81-4327-a1c0-8b51758e3092.png
+wwwroot\uploads\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf
+wwwroot\uploads\709ac2b6-da5e-4d77-8539-850cc6cc9cdf.jpg
+wwwroot\uploads\9049c323-fc7f-4509-836e-44063177c63d.jpg
+wwwroot\uploads\c14e20e3-c476-4c68-ba05-d999aeb197e2.pdf
+wwwroot\uploads\kepmendikbud_155_98_20250313_134319.pdf
+wwwroot\uploads\Template_Penilaian_Wawancara_BEM_20250313_144216.xlsx
+wwwroot\uploads\unnamed_20250313_133443.png
+wwwroot\uploads\unnamed_20250313_133533.png

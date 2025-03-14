@@ -68,7 +68,7 @@
 		</div>
 	</div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function () {
@@ -92,6 +92,11 @@
 			// Ambil file dari input file dan tambahkan ke FormData
 			var fileInput = $("#processInstruction")[0].files[0];
 			if (fileInput) {
+				var allowedExtensions = /(\.pdf)$/i;
+				if (!allowedExtensions.test(fileInput.name)) {
+					alert("Hanya file PDF yang diperbolehkan!");
+					return; // Hentikan proses pengiriman form
+				}
 				formData.append("processInstruction", fileInput);
 			}
 
@@ -102,9 +107,20 @@
 				processData: false, // Jangan diproses sebagai string
 				contentType: false, // Biarkan FormData mengatur Content-Type
 				success: function (response) {
-					alert(response.message); // Notifikasi sukses
+					Swal.fire({
+						title: "Success!",
+						text: response.message,
+						icon: "success",
+						confirmButtonText: "OK"
+					}).then((result) => {
+						if (result.isConfirmed) {
+							window.location.href = "/ProcessRouting/Index"; // Redirect setelah OK ditekan
+						}
+					});
+
 					$("#formCreate")[0].reset(); // Reset form setelah submit berhasil
 				},
+
 				error: function (xhr) {
 					alert("Error: " + xhr.responseJSON.message); // Notifikasi error
 				}
