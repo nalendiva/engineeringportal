@@ -2232,6 +2232,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProcessRouting</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProcessRouting</BasePath>
+      <RelativePath>uploads/dd7bf937-8936-478f-a7b0-a88de781b318.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rodecpo49p</Fingerprint>
+      <Integrity>NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProcessRouting</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProcessRouting</BasePath>
+      <RelativePath>uploads/TATA TERTIB RAT XXVIX_20250314_080450.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bxcy7mz5on</Fingerprint>
+      <Integrity>72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\unnamed_20250313_133443.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
