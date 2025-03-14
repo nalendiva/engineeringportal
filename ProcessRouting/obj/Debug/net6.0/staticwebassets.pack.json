@@ -485,7 +485,15 @@
       "PackagePath": "staticwebassets\\uploads\\3567c318-ece9-49c2-a076-d44a66ad1611.png"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
+=======
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "PackagePath": "staticwebassets\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "PackagePath": "staticwebassets\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png"
     },
     {
@@ -493,6 +501,7 @@
       "PackagePath": "staticwebassets\\uploads\\66860048-6a81-4327-a1c0-8b51758e3092.png"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf",
       "PackagePath": "staticwebassets\\uploads\\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf"
     },
@@ -525,6 +534,36 @@
       "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_133533.png"
     },
     {
+=======
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "PackagePath": "staticwebassets\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf",
+      "PackagePath": "staticwebassets\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png",
+      "PackagePath": "staticwebassets\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_133443.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_133533.png"
+    },
+    {
+      "Id": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "PackagePath": "staticwebassets\\uploads\\unnamed_20250313_141831.png"
+    },
+    {
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProcessRouting.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

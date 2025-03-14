@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "DVZ8kncPsVCOBvPv2GnRUHpx6nyQgCgRUFbEqPoTm1s=",
+=======
+  "Hash": "YGZP79yOfHxo35WS+goSd8S+0PP2FSd531dElqTwPTw=",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
   "Source": "ProcessRouting",
   "BasePath": "_content/ProcessRouting",
   "Mode": "Default",
@@ -2579,7 +2583,32 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3567c318-ece9-49c2-a076-d44a66ad1611.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
+=======
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gp80e31zkr",
+      "Integrity": "FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "SourceId": "ProcessRouting",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
@@ -2621,12 +2650,21 @@
       "OriginalItemSpec": "wwwroot\\uploads\\66860048-6a81-4327-a1c0-8b51758e3092.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf",
       "SourceId": "ProcessRouting",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/6b22d778-2443-4f04-9e6c-0c064ac1811e#[.{fingerprint}]?.pdf",
+=======
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/Case Study_Excel Basic Formula_20250313_141808#[.{fingerprint}]?.xlsx",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2635,6 +2673,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "5nchb5hklc",
       "Integrity": "v3biZp+2Ar2Tis/bIsFpfgbqrzstHEw0SlfKHfwRsdE=",
       "CopyToOutputDirectory": "Never",
@@ -2648,6 +2687,21 @@
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/709ac2b6-da5e-4d77-8539-850cc6cc9cdf#[.{fingerprint}]?.jpg",
+=======
+      "Fingerprint": "gd4fn8lka9",
+      "Integrity": "HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/Case Study_Excel Basic Formula_20250313_141812#[.{fingerprint}]?.xlsx",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2656,6 +2710,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "wapklh02x4",
       "Integrity": "GFbrIgVVtoFri9hyISeVudvbbJqT7PNIFBm6TFGazbY=",
       "CopyToOutputDirectory": "Never",
@@ -2669,6 +2724,21 @@
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/9049c323-fc7f-4509-836e-44063177c63d#[.{fingerprint}]?.jpg",
+=======
+      "Fingerprint": "gd4fn8lka9",
+      "Integrity": "HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/dd7bf937-8936-478f-a7b0-a88de781b318#[.{fingerprint}]?.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2677,6 +2747,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "wapklh02x4",
       "Integrity": "GFbrIgVVtoFri9hyISeVudvbbJqT7PNIFBm6TFGazbY=",
       "CopyToOutputDirectory": "Never",
@@ -2690,6 +2761,21 @@
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/c14e20e3-c476-4c68-ba05-d999aeb197e2#[.{fingerprint}]?.pdf",
+=======
+      "Fingerprint": "rodecpo49p",
+      "Integrity": "NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/TATA TERTIB RAT XXVIX_20250314_080450#[.{fingerprint}]?.pdf",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2698,6 +2784,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "5nchb5hklc",
       "Integrity": "v3biZp+2Ar2Tis/bIsFpfgbqrzstHEw0SlfKHfwRsdE=",
       "CopyToOutputDirectory": "Never",
@@ -2751,6 +2838,19 @@
       "SourceId": "ProcessRouting",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
+=======
+      "Fingerprint": "bxcy7mz5on",
+      "Integrity": "72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf"
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/unnamed_20250313_133443#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -2768,10 +2868,17 @@
       "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_133443.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
       "SourceId": "ProcessRouting",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\",
+=======
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "BasePath": "_content/ProcessRouting",
       "RelativePath": "uploads/unnamed_20250313_133533#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -2787,6 +2894,30 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_133533.png"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Identity": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "SourceId": "ProcessRouting",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\",
+      "BasePath": "_content/ProcessRouting",
+      "RelativePath": "uploads/unnamed_20250313_141831#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rodecpo49p",
+      "Integrity": "NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\unnamed_20250313_141831.png"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
     }
   ],
   "Endpoints": [
@@ -12795,6 +12926,88 @@
       ]
     },
     {
+      "Route": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.gp80e31zkr.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gp80e31zkr"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA="
+        }
+      ]
+    },
+    {
       "Route": "uploads/61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png",
       "Selectors": [],
@@ -12959,8 +13172,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "uploads/6b22d778-2443-4f04-9e6c-0c064ac1811e.5nchb5hklc.pdf",
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf",
+=======
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141808.gd4fn8lka9.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12969,6 +13187,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "76287"
         },
         {
@@ -13380,6 +13599,9 @@
         {
           "Name": "Content-Length",
           "Value": "6627"
+=======
+          "Value": "13261"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Content-Type",
@@ -13387,11 +13609,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"l7SPHbekqEcWmmsn//dB42oMClGPIsA0KVQ5erlEbrY=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 07:42:16 GMT"
+=======
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:08 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13401,6 +13631,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "vmuqn0283v"
         },
         {
@@ -13410,12 +13641,28 @@
         {
           "Name": "integrity",
           "Value": "sha256-l7SPHbekqEcWmmsn//dB42oMClGPIsA0KVQ5erlEbrY="
+=======
+          "Value": "gd4fn8lka9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Case Study_Excel Basic Formula_20250313_141808.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "uploads/Template_Penilaian_Wawancara_BEM_20250313_144216.xlsx",
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\Template_Penilaian_Wawancara_BEM_20250313_144216.xlsx",
+=======
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141808.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141808.xlsx",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13424,7 +13671,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "6627"
+=======
+          "Value": "13261"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Content-Type",
@@ -13432,11 +13683,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"l7SPHbekqEcWmmsn//dB42oMClGPIsA0KVQ5erlEbrY=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Mar 2025 07:42:16 GMT"
+=======
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:08 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13446,13 +13705,104 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-l7SPHbekqEcWmmsn//dB42oMClGPIsA0KVQ5erlEbrY="
+=======
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "uploads/unnamed_20250313_133443.png",
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+=======
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141812.gd4fn8lka9.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gd4fn8lka9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Case Study_Excel Basic Formula_20250313_141812.xlsx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\Case Study_Excel Basic Formula_20250313_141812.xlsx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd7bf937-8936-478f-a7b0-a88de781b318.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13473,7 +13823,175 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 06:40:08 GMT"
+=======
+          "Value": "Fri, 14 Mar 2025 01:04:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd7bf937-8936-478f-a7b0-a88de781b318.rodecpo49p.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\dd7bf937-8936-478f-a7b0-a88de781b318.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 01:04:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rodecpo49p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dd7bf937-8936-478f-a7b0-a88de781b318.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TATA TERTIB RAT XXVIX_20250314_080450.bxcy7mz5on.pdf",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 01:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bxcy7mz5on"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/TATA TERTIB RAT XXVIX_20250314_080450.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TATA TERTIB RAT XXVIX_20250314_080450.pdf",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\TATA TERTIB RAT XXVIX_20250314_080450.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 01:04:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_133443.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 06:34:43 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13489,7 +14007,11 @@
     },
     {
       "Route": "uploads/unnamed_20250313_133443.rodecpo49p.png",
+<<<<<<< HEAD
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+=======
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133443.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13510,7 +14032,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 06:40:08 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 06:34:43 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13534,7 +14060,11 @@
     },
     {
       "Route": "uploads/unnamed_20250313_133533.png",
+<<<<<<< HEAD
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+=======
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13555,7 +14085,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 06:40:08 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 06:35:33 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13571,7 +14105,11 @@
     },
     {
       "Route": "uploads/unnamed_20250313_133533.rodecpo49p.png",
+<<<<<<< HEAD
       "AssetFile": "D:\\Collins\\ProcessRouting\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+=======
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_133533.png",
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13592,7 +14130,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Mar 2025 06:40:08 GMT"
+=======
+          "Value": "Thu, 13 Mar 2025 06:35:33 GMT"
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
         },
         {
           "Name": "Cache-Control",
@@ -13613,6 +14155,91 @@
           "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Route": "uploads/unnamed_20250313_141831.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/unnamed_20250313_141831.rodecpo49p.png",
+      "AssetFile": "D:\\Collins\\engineeringportal\\engineeringportal\\ProcessRouting\\wwwroot\\uploads\\unnamed_20250313_141831.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 07:18:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rodecpo49p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/unnamed_20250313_141831.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78="
+        }
+      ]
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
     }
   ]
 }

@@ -118,8 +118,10 @@ wwwroot\lib\waypoints\jquery.waypoints.min.js
 wwwroot\uploads\1_20240911_134324_0000_20250313_144237.png
 wwwroot\uploads\11664071-8f3f-4e73-b6e0-e201cb7330b1.pdf
 wwwroot\uploads\3567c318-ece9-49c2-a076-d44a66ad1611.png
+wwwroot\uploads\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png
 wwwroot\uploads\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png
 wwwroot\uploads\66860048-6a81-4327-a1c0-8b51758e3092.png
+<<<<<<< HEAD
 wwwroot\uploads\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf
 wwwroot\uploads\709ac2b6-da5e-4d77-8539-850cc6cc9cdf.jpg
 wwwroot\uploads\9049c323-fc7f-4509-836e-44063177c63d.jpg
@@ -128,3 +130,12 @@ wwwroot\uploads\kepmendikbud_155_98_20250313_134319.pdf
 wwwroot\uploads\Template_Penilaian_Wawancara_BEM_20250313_144216.xlsx
 wwwroot\uploads\unnamed_20250313_133443.png
 wwwroot\uploads\unnamed_20250313_133533.png
+=======
+wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141808.xlsx
+wwwroot\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx
+wwwroot\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png
+wwwroot\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf
+wwwroot\uploads\unnamed_20250313_133443.png
+wwwroot\uploads\unnamed_20250313_133533.png
+wwwroot\uploads\unnamed_20250313_141831.png
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a

@@ -24,7 +24,11 @@
 						</div>
 						<div class="row mb-1 align-items-center justify-content-center">
 							<label class="col-md-3 text-end">WORKCENTER :</label>
-							<input class="border border-secondary-subtle col form-control form-control" type="text" id="workcenter" name="workcenter" value="" />
+							<select class="border border-secondary-subtle col form-select form-select" id="workcenter" name="workcenter" aria-label="Large select example">
+								<option selected>Open this select menu</option>
+								<option >Workcenter123</option>
+								<option >WorkCenter234</option>
+							</select>
 						</div>
 						<div class="row mb-1 align-items-center justify-content-center">
 							<label class="col-md-3 text-end">PROCESS DESCRIPTION (Short) :</label>
@@ -99,16 +103,26 @@
 
 		$("#updateForm").submit(function (event) {
 			event.preventDefault();
+			const fileInput = $("#processInstruction")[0];
+			if (fileInput.files.length > 0){
+				const file = fileInput.files[0];
+				const allowedTypes = ["application/pdf"];
+
+				if (!allowedTypes.includes(file.type)) {
+					alert("Hanya file PDF yang diperbolehkan!");
+					return;
+				}
+			}
 			const urlParams = new URLSearchParams(window.location.search);
 			const id = urlParams.get("id");
-
+			
 			if (!id) {
 				alert("ID tidak ditemukan! Tidak dapat memperbarui data.");
 				return;
 			}
 
 			let formData = new FormData(this);
-			formData.append("id", id);  // Add the ID to the form data
+			formData.append("id", id);  
 
 			$.ajax({
 				url: `/ProcessRouting/UpdateData/${id}`,
@@ -119,7 +133,7 @@
 				success: function (response) {
 					if (response.success) {
 						alert(response.message);
-						window.location.href = "/ProcessRouting/Index";  // Redirect to the list page
+						window.location.href = "/ProcessRouting/Index";  
 					} else {
 						alert(response.message);
 					}

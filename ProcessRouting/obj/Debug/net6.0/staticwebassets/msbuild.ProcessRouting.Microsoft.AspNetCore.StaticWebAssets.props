@@ -2178,6 +2178,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3567c318-ece9-49c2-a076-d44a66ad1611.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProcessRouting</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProcessRouting</BasePath>
+      <RelativePath>uploads/3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gp80e31zkr</Fingerprint>
+      <Integrity>FLZoNrUHLe13sw8cOfmXXeo1YRGm5peIUIpyopr9WXA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3c6e23fa-0e90-4ab2-9ac4-2d97ac04531f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\61bd1c8f-f868-4c4d-a3b2-2d627b84da6d.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
@@ -2214,18 +2232,27 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\66860048-6a81-4327-a1c0-8b51758e3092.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf'))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Case Study_Excel Basic Formula_20250313_141808.xlsx'))">
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProcessRouting</BasePath>
+<<<<<<< HEAD
       <RelativePath>uploads/6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf</RelativePath>
+=======
+      <RelativePath>uploads/Case Study_Excel Basic Formula_20250313_141808.xlsx</RelativePath>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
       <Fingerprint>5nchb5hklc</Fingerprint>
       <Integrity>v3biZp+2Ar2Tis/bIsFpfgbqrzstHEw0SlfKHfwRsdE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -2233,17 +2260,31 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6b22d778-2443-4f04-9e6c-0c064ac1811e.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\709ac2b6-da5e-4d77-8539-850cc6cc9cdf.jpg'))">
+=======
+      <Fingerprint>gd4fn8lka9</Fingerprint>
+      <Integrity>HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Case Study_Excel Basic Formula_20250313_141808.xlsx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx'))">
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProcessRouting</BasePath>
+<<<<<<< HEAD
       <RelativePath>uploads/709ac2b6-da5e-4d77-8539-850cc6cc9cdf.jpg</RelativePath>
+=======
+      <RelativePath>uploads/Case Study_Excel Basic Formula_20250313_141812.xlsx</RelativePath>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
       <Fingerprint>wapklh02x4</Fingerprint>
       <Integrity>GFbrIgVVtoFri9hyISeVudvbbJqT7PNIFBm6TFGazbY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -2251,17 +2292,31 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\709ac2b6-da5e-4d77-8539-850cc6cc9cdf.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9049c323-fc7f-4509-836e-44063177c63d.jpg'))">
+=======
+      <Fingerprint>gd4fn8lka9</Fingerprint>
+      <Integrity>HFVrqOcpqBCG0oRDwL07QuGvDoumnH1+pkarjU59I7M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Case Study_Excel Basic Formula_20250313_141812.xlsx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png'))">
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProcessRouting</BasePath>
+<<<<<<< HEAD
       <RelativePath>uploads/9049c323-fc7f-4509-836e-44063177c63d.jpg</RelativePath>
+=======
+      <RelativePath>uploads/dd7bf937-8936-478f-a7b0-a88de781b318.png</RelativePath>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
       <Fingerprint>wapklh02x4</Fingerprint>
       <Integrity>GFbrIgVVtoFri9hyISeVudvbbJqT7PNIFBm6TFGazbY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -2269,17 +2324,31 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9049c323-fc7f-4509-836e-44063177c63d.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c14e20e3-c476-4c68-ba05-d999aeb197e2.pdf'))">
+=======
+      <Fingerprint>rodecpo49p</Fingerprint>
+      <Integrity>NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd7bf937-8936-478f-a7b0-a88de781b318.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf'))">
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <SourceType>Package</SourceType>
       <SourceId>ProcessRouting</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProcessRouting</BasePath>
+<<<<<<< HEAD
       <RelativePath>uploads/c14e20e3-c476-4c68-ba05-d999aeb197e2.pdf</RelativePath>
+=======
+      <RelativePath>uploads/TATA TERTIB RAT XXVIX_20250314_080450.pdf</RelativePath>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< HEAD
       <Fingerprint>5nchb5hklc</Fingerprint>
       <Integrity>v3biZp+2Ar2Tis/bIsFpfgbqrzstHEw0SlfKHfwRsdE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -2321,6 +2390,13 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Template_Penilaian_Wawancara_BEM_20250313_144216.xlsx'))</OriginalItemSpec>
+=======
+      <Fingerprint>bxcy7mz5on</Fingerprint>
+      <Integrity>72Qwbef6RDUU4BDIN+1pBKMgp3v9dTZqdAdX7pB/uS0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\TATA TERTIB RAT XXVIX_20250314_080450.pdf'))</OriginalItemSpec>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\unnamed_20250313_133443.png'))">
       <SourceType>Package</SourceType>
@@ -2358,5 +2434,26 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\unnamed_20250313_133533.png'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\unnamed_20250313_141831.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProcessRouting</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProcessRouting</BasePath>
+      <RelativePath>uploads/unnamed_20250313_141831.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rodecpo49p</Fingerprint>
+      <Integrity>NbP4pA0U8ozTIzDBqRepmBFbN7x9Xvl8Rdb3oOg+i78=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\unnamed_20250313_141831.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> 8c22e8bc01da8e84572b07bd7220d73f1097c43a
   </ItemGroup>
 </Project>
